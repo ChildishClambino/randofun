@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, sans-serif ;
+    line-height: 1.6;
+    margin: none; 
+
+    background-image: url(8af7d7dd-7fd8-45a4-b8ec-096afd2d3dd7-anime-sky-wallpaper.webp);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"]
+input[type="password"]
+input[type="email"]
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button[type="reset"],
+button[type="radio"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"]:focus,
+input[type="pasword"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+input[type="chekbox"] + label,
+input[type="radio"] + label {
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.bestbutton {
+
+    color: blue;
+    font-family: "proxima nova";
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    
+    border: solid 2px blue;
+    border-radius: 3px;
+
+    padding: 5px 41px;
+
+    transition-duration: 300ms;
+}
+.bestbutton:hover {
+    background-color: blue;
+    color: rgb(231, 231, 231);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 18%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    opacity: .7;
+}
+a {
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(212, 89%, 31%) ;
+    color: rgb(255, 255, 255);
+    transition-duration: 1000ms;
+}
+.navbar li{
+    float: left;
+}
+
+.filter{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: .7;
+}
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 500px;
+    background: #7e8b99;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 12px 12px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0 12px 5px;     /* Peep the table. It's got a shadow */
+}
+th{
+    background: #007bff;
+}
+td{
+    background-color: #c0c0c0;
+}
+p {
+    text-align: center;
+}

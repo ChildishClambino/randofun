@@ -1,0 +1,135 @@
+.body1{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.body2{
+    background-image: url(background2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body3{
+    background-image: url(background2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body4{
+    background-image: url(background1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+   
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(273, 89%, 26%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    opacity: .7;
+}
+a {
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(212, 89%, 31%) ;
+    color: rgb(255, 255, 255);
+    transition-duration: 500ms;
+}
+.navbar li{
+    float: left;
+}
+main {
+    text-align: center;
+}
+.bestbutton {
+
+    color: rgb(247, 24, 255);
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 56px;
+    text-align: center;
+    
+    border: solid 2px rgb(255, 0, 242);
+    border-radius: 50px;
+
+    padding: 10px 80px;
+
+    transition-duration: 1500ms;
+}
+.bestbutton:hover {
+    background-color: rgb(248, 8, 188);
+    color: rgb(25, 0, 255);
+}
+
+section {
+    color:  rgb(205, 243, 245);
+    border: 5px;
+    border-color: white;
+    border-radius: 6px;
+    text-align: center;
+}
+.zoom {
+    padding: 50px;
+    background-color: rgb(142, 11, 182);
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .body1 h3{
+    font-size: 30px;
+  }
+  .body1 p{
+    font-size: 20px;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 19, 155);
+    opacity: .5;
+  }
+   
+.body4 main{
+    color: aliceblue;
+    font-size: 25px;
+}
+.bestbutton1 {
+
+    color: rgb(24, 86, 255);
+    font-family: "proxima nova";
+    font-weight: 25px;
+    font-size: 25px;
+    text-align: center;
+    
+    border: solid 2px rgb(0, 17, 255);
+    border-radius: 5px;
+
+    padding: 10px 80px;
+
+    transition-duration: 200ms;
+}
+.bestbutton1:hover {
+    background-color: rgb(52, 8, 248);
+    color: rgb(253, 253, 253);
+}
